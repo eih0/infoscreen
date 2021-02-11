@@ -1,13 +1,13 @@
-import DadJokes from "./DadJokes"
+import DadJokes from "./DadJokes";
+import Bikes from "./Bikes";
 
 function App() {
-  console.log("console lol")
   return (
     <div className="App">
-        <DadJokes/>
+      <DadJokes />
+      <Bikes />
     </div>
   );
 }
 
 export default App;
-
